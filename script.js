@@ -21,7 +21,7 @@ function calculate(operation) {
       result = num1 * num2;
       break;
     case "divide":
-      result = num2 !== 0 ? num1 / num2 : "Cannot divide by zero";
+      result = num2 !== 0 ? num1 / num2 : "Error: Division by zero is not allowed";
       break;
     default:
       result = "Invalid operation";
