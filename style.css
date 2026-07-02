@@ -41,6 +41,7 @@ body {
   background: #007bff;
   color: white;
   border-radius: 6px;
+  min-width: 110px;
 }
 
 .buttons button:hover {
@@ -50,4 +51,11 @@ body {
 #result {
   margin-top: 20px;
   color: #333;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
